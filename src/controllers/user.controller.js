@@ -3,7 +3,7 @@ import productModel from "../models/product.models.js";
 
 export default class UserController{
     getRegister(req,res){
-        res.render('register');
+        res.render('register')
     }
     getLogin(req,res){
         res.render('login', {errorMessage: null});
